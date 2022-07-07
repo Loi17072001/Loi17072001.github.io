@@ -1029,7 +1029,7 @@ section img {
   }
 
   section {
-    overflow-x: hidden;
+    overflow-x: clip;
     height: 40vh;
   }
 
