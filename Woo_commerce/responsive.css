@@ -1,6 +1,6 @@
 @media (min-width: 319px) and (max-width: 480px){
     html{
-        font-size: 40%;
+        font-size: 50%;
     }
     body{
         margin: 0 auto;
@@ -29,11 +29,9 @@
         background: #ffff;
         box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
         width: 56%;
-    border-radius: 20px;
-    top: 42px
-    }
-    .toggle{
-        display: block;
+        border-radius: 20px;
+        top: 42px;
+        display: none;
     }
     .header_left_nav_item a{
         margin-bottom: 25px;

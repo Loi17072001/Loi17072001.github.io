@@ -19,6 +19,7 @@ body {
   align-items: center;
   padding: 3.5rem 5.5rem;
   position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .header_left_logo_icon {
   width: 20rem;
@@ -40,16 +41,22 @@ body {
   color: #7f54b3;
   font-weight: 600;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 .header_right-log-in {
   color: #494949;
   font-weight: 600;
   text-decoration: none;
   margin: 0 3.5rem 0 3rem;
+  font-size: 1.5rem;
 }
 .header_right_bars {
   margin-left: 3rem;
   display: none;
+  font-size: 1.4rem;
+}
+.header_right i {
+  font-size: 1.5rem;
 }
 
 .banner {
@@ -57,10 +64,21 @@ body {
   width: 1111px;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
 }
 .banner_left {
-  width: 50%;
+  width: 51%;
   padding: 10rem 3rem 10rem 0;
+  z-index: 3;
+}
+.banner_left_img {
+  bottom: -28%;
+  width: 79%;
+  position: absolute;
+  filter: invert(12%) sepia(0%) saturate(33%) hue-rotate(239deg) brightness(113%) contrast(89%);
+  z-index: 1;
+  opacity: 0.6;
 }
 .banner_left_heading {
   font-size: 3.8rem;
@@ -83,16 +101,23 @@ body {
   color: white;
   font-size: 1.5rem;
 }
+.banner_left_button_start i {
+  margin-left: 1rem;
+}
 .banner_left_button_extend {
   font-size: 1.7rem;
   text-decoration: none;
   color: #7f54b3;
   font-weight: 600;
 }
+.banner_left_button span {
+  font-size: 1.5rem;
+}
 .banner_right {
   justify-content: space-between;
   display: flex;
-  width: 50%;
+  width: 48.5%;
+  z-index: 3;
 }
 .banner_right_colum1 {
   width: 47%;
@@ -131,6 +156,7 @@ body {
   height: 325px;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 5px 15px;
 }
 .everything_right {
   position: absolute;
@@ -145,7 +171,7 @@ body {
   line-height: 3.5rem;
   word-spacing: 0.2rem;
   letter-spacing: 0.5px;
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 .everything_right_desc {
   margin: 3rem 0 5rem 0;
@@ -162,15 +188,14 @@ body {
   justify-content: space-between;
   align-items: center;
   max-width: 770px;
-  margin: 0 auto 7.5rem auto;
+  margin: 0 auto 10.5rem auto;
 }
 .customize_right {
-  width: 48%;
+  width: 43%;
 }
 .customize_left {
   border-collapse: separate;
   border-spacing: 1.5rem;
-  padding-right: 4rem;
   width: 50%;
 }
 .customize_left_tr {
@@ -191,24 +216,26 @@ body {
 }
 .learn_right_img1 {
   position: absolute;
-  top: -94px;
-  left: 63px;
-  width: 10rem;
-  height: 14rem;
+  top: -74px;
+  left: 48px;
+  width: 12rem;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 5px 15px;
 }
 .learn_right_img2 {
   position: absolute;
+  right: 1.7rem;
   bottom: -70px;
-  width: 39rem;
-  height: 26rem;
+  width: 33rem;
   -o-object-fit: cover;
      object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 5px 15px;
 }
 .learn_right_img3 {
   position: absolute;
   bottom: 10.5rem;
   right: -1rem;
-  width: 27rem;
+  width: 23rem;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 5px 15px;
 }
 
 .trusted {
@@ -278,18 +305,20 @@ body {
 }
 
 .support {
-  max-width: 867px;
+  width: 100%;
+  background-color: #f7f7f7;
   text-align: center;
   margin: 0 auto;
 }
 .support_heading {
+  padding-top: 5rem;
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #494949;
   margin-bottom: 2.3rem;
 }
 .support_desc {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #494949;
 }
 .support img {
@@ -307,13 +336,14 @@ body {
 }
 .footer_top_content {
   height: 55px;
-  width: 875px;
+  width: 103rem;
   display: flex;
   justify-content: space-between;
 }
 .footer_top_content_left {
-  text-align: center;
-  line-height: 2.9rem;
+  text-align: left;
+  line-height: 3.5rem;
+  width: 60rem;
 }
 .footer_top_content_left p {
   font-weight: 300;
@@ -341,7 +371,7 @@ body {
   justify-content: center;
 }
 .footer_middle_ul {
-  padding: 5.5rem auto;
+  background-color: #f7f7f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -349,13 +379,13 @@ body {
 .footer_middle_ul_li {
   display: flex;
   align-items: center;
-  margin-right: 7.7rem;
+  margin-right: 6.7rem;
   font-size: 1.5rem;
 }
 .footer_middle_ul_li i {
   color: #7f54b3;
   margin-right: 1rem;
-  font-size: 4.1rem;
+  font-size: 3.8rem;
 }
 .footer_middle_ul_li_icon {
   -webkit-mask-image: url(./img/svg_support.svg);
@@ -407,7 +437,7 @@ body {
   width: 100%;
 }
 .footer_bottom_copyright_content {
-  width: 870px;
+  width: 106rem;
   margin: 0 auto;
   line-height: 11.8rem;
   display: flex;
