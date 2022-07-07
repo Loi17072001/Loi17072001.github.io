@@ -12,7 +12,7 @@
         display: inline-block;
     }
     .header_left_logo_icon {
-        width: 15rem;
+        width: 10rem;
     }
     .header_right{
         display: flex;
@@ -32,6 +32,7 @@
         border-radius: 20px;
         top: 42px;
         display: none;
+        z-index: 99;
     }
     .header_left_nav_item a{
         margin-bottom: 25px;
@@ -56,6 +57,8 @@
     .banner_left_button_start{
         display: flex;
         justify-content: center;
+        margin: 0 auto;
+    width: 25rem;
     }
     .banner_left_button_start i{
         margin-left: 3rem;
@@ -90,6 +93,11 @@
     .footer_top_content {
         align-items: center;
     flex-direction: column;
+    justify-content: inherit;
+    }
+    .footer_top_content_left{
+        text-align: center;
+        width: 45rem;
     }
     .footer_top_content_left p{
         margin-bottom: 2rem;
@@ -119,6 +127,9 @@
         width: 100%;
         margin-bottom: 2rem;
     }
+    .everything_right{
+        width: 70%;
+    }
 }
 @media (min-width: 481px) and (max-width: 768px){
     html{
@@ -139,9 +150,10 @@
         background: #ffff;
         box-shadow: rgb(0 0 0 / 50%) 0px 5px 15px;
         width: 39%;
-    border-radius: 20px;
-    top: 74px;
+        border-radius: 20px;
+        top: 74px;
         display: none;
+        z-index: 99;
     }
     .header_left_nav_item a{
         margin-bottom: 25px;
@@ -149,6 +161,9 @@
     }
     .active{
         display: block;
+    }
+    .customize{
+        margin: 0 2rem 10.5rem 2rem;
     }
     .banner{
         width: 100%;
@@ -158,11 +173,29 @@
         text-align: center;
         padding: 10rem;
     }
+    .banner_left_button{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner_left_button span{
+        margin: 2rem 0;
+    font-size: 1.8rem;
+    }
+    .banner_left_button_start{
+        display: flex;
+    justify-content: center;
+    }
     .banner_right{
         display: none;
     }
     .everything{
         margin: 8.8rem 2rem 11.5rem 2rem;
+    }
+    .footer_top{
+        padding-bottom: 8rem;
+    }
+    .footer_top_content_left{
+        text-align: center;
     }
     .footer_middle{
         margin: 3rem 0 5rem 0;
@@ -237,6 +270,8 @@
         border-radius: 20px;
         top: 75px;
         display: none;
+        z-index: 99;
+
     }
     .header_left_nav_item a{
         margin-bottom: 25px;
@@ -256,6 +291,21 @@
     .banner_right_colum2_img{
         width: 220px;
     height: 143px;
+    }
+    .footer_top_content {
+        padding: 0 3rem;
+    }
+    .footer_middle_ul{
+        flex-wrap: wrap;
+    }.footer_bottom{
+        margin: 10rem 0;
+    }
+    .footer_bottom_copyright_content{
+        width: 70rem;
+    }
+    .footer_bottom_content{
+        flex-wrap: wrap;
+    justify-content: center;
     }
 }
 
