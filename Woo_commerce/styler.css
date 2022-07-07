@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 1305px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -161,11 +161,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 780px;
+  max-width: 770px;
   margin: 0 auto 7.5rem auto;
 }
 .customize_right {
-  padding-left: 4rem;
   width: 48%;
 }
 .customize_left {
@@ -314,6 +313,7 @@ body {
 }
 .footer_top_content_left {
   text-align: center;
+  line-height: 2.9rem;
 }
 .footer_top_content_left p {
   font-weight: 300;
@@ -324,6 +324,7 @@ body {
   font-weight: 500;
 }
 .footer_top_content_right {
+  width: 22rem;
   color: white;
   text-decoration: none;
   padding: 2.6rem 4.6rem;
