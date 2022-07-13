@@ -197,6 +197,7 @@
     }
     body{
         margin: 0 auto;
+        overflow-x: hidden;
     }
     .header_right_bars{
         display: inline-block;
@@ -360,6 +361,7 @@
     }
     body{
         margin: 0 auto;
+        overflow-x: hidden;
     }
     .header_right_bars{
         display: inline-block;
@@ -433,6 +435,10 @@
     }
 }
 @media (min-width: 770px) and (max-width: 865px){
+    body{
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
     .banner_left_button{
         align-items: center;
         display: flex;
@@ -454,6 +460,10 @@
 @media (min-width: 1025px) and (max-width: 1200px){
     html{
         font-size: 60%;
+    }
+    body{
+        margin: 0 auto;
+        overflow-x: hidden;
     }
     .header_left_logo_icon {
         width: 15rem;
@@ -480,9 +490,14 @@
 
 }
 @media only screen and (min-width: 1200px){
+    body{
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
     .header_left{
         display: flex;
     }
+
     .header_left_logo_icon {
         margin-right: 3rem;
     }
