@@ -10,6 +10,13 @@ body {
   font-family: "Poppins", sans-serif;
   max-width: 1920px;
   margin: 0 auto;
+  background: white !important;
+}
+
+.cd-top {
+  z-index: 99999;
+  background-color: #7f54b3;
+  border-radius: 50%;
 }
 
 .header {
@@ -19,6 +26,12 @@ body {
   align-items: center;
   padding: 3.5rem 5.5rem;
   position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .header_left_logo_icon {
@@ -60,7 +73,7 @@ body {
 }
 
 .banner {
-  margin: 0 auto;
+  margin: 12rem auto 0 auto;
   width: 1111px;
   display: flex;
   justify-content: space-between;
@@ -324,7 +337,7 @@ body {
   color: #494949;
 }
 .support img {
-  margin-bottom: -0.5rem;
+  margin-bottom: -0.2rem;
   width: 690px;
   margin-top: 5rem;
 }

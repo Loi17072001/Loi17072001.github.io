@@ -1,4 +1,7 @@
 @media (min-width: 319px) and (max-width: 480px){
+    .header_right_get-started{
+        display: none;
+    }
     html{
         font-size: 52%;
     }
@@ -13,13 +16,16 @@
         display: inline-block;
     }
     .header_left_logo_icon {
-        width: 10rem;
+        width: 12rem;
     }
     .header_right{
         display: flex;
     }
     .header_right-log-in{
         margin: 0 2rem;
+    }
+    .banner_left_heading {
+        font-size: 3.4rem;
     }
     .header_left_nav{
         position: absolute;
@@ -59,7 +65,7 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
-    width: 25rem;
+        width: 30rem;
     }
     .banner_left_button_start i{
         margin-left: 3rem;
@@ -68,21 +74,21 @@
         display: none;
     }
     .everything{
-    margin: 17.8rem auto 11.5rem auto;
+    margin: 17.8rem auto 15.5rem auto;
 
     }
     .everything_right_heading{
-        transform: translateY(-115px);
+        transform: translateY(-115px) !important;
     margin: 2rem 2rem -5rem 2rem;
     }
     .everything_right_heading_margin-35{
-        transform: translateY(-35px);
+        transform: translateY(-35px) !important;
     }
     .everything_right_heading_margin-88{
-        transform: translateY(-88px);
+        transform: translateY(-88px) !important;
     }
     .everything_right_heading_margin-40{
-        transform: translateY(-40px);
+        transform: translateY(-40px) !important;
 
     }
     .everything_img{
@@ -174,11 +180,14 @@
     .everything_right{
         text-align: center;
         width: 100%;
-        padding: 0 3rem;
         color: #ffff;
     }
     .trusted{
-        height: 520px;
+        height: 590px;
+    }
+    .trusted_content_top_heading{
+        line-height: 4.5rem;
+        margin-bottom: 2rem;
     }
     
 }
@@ -242,7 +251,7 @@
         display: none;
     }
     .everything{
-        margin: 8.8rem 2rem 11.5rem 2rem;
+        margin: 15.8rem 2rem 11.5rem 2rem;
     }
 
     .everything_img{
@@ -256,6 +265,13 @@
         width: 100%;
         padding: 0 8rem;
         color: #ffff;
+    }
+    .everything_right_heading_margin-88{
+        transform: translateY(-88px) !important;
+    }
+    .everything_right_heading_margin-60{
+        transform: translateY(-60px) !important;
+
     }
     /* .footer_top{
         padding-bottom: 8rem;
@@ -275,7 +291,8 @@
         width: 45rem;
     }
     .footer_middle{
-        margin: 3rem 0 5rem 0;
+        margin: 0 0 5rem 0;
+        height: 230px;
     }
     .footer_middle_ul{
         flex-direction: column;
@@ -283,6 +300,9 @@
     }
     .footer_middle_ul_li{
         margin: 1rem 0;
+    }
+    .footer_bottom{
+        margin: 7rem 0;
     }
     .footer_bottom_content{
         text-align: center;

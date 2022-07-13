@@ -980,8 +980,7 @@ section img {
 }
 
 .btn-grad:hover {
-  background-position: right center;
-  /* change the direction of the change here */
+  background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
@@ -991,20 +990,16 @@ section img {
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .person {
     width: 45%;
   }
-
   .contact {
     display: flex;
     flex-direction: column;
   }
-
   .contact_left {
     right: 0;
   }
-
   .contact_right {
     bottom: 30px;
     width: 100%;
@@ -1015,62 +1010,48 @@ section img {
     right: 0;
     padding-left: 0;
   }
-
   .call_me {
     overflow-x: hidden;
   }
-
   .video_email {
     width: 0;
   }
-
   header {
     padding: 40px 50px;
   }
-
   section {
     overflow-x: clip;
     height: 40vh;
   }
-
   .content {
     width: 800px;
   }
-
   .content_target {
     height: 65vh;
   }
-
   .content_target_row {
     flex-wrap: wrap;
   }
-
   .target_items {
     width: 44%;
     margin-bottom: 20px;
   }
-
   .call_me {
     height: 400px;
   }
-
   .best_school {
     flex-direction: column;
   }
-
   .best_school_right {
     width: 70%;
   }
-
   .course_row {
     flex-wrap: wrap;
     width: 100%;
   }
-
   .course {
     height: 96vh;
   }
-
   .course_items {
     width: 40%;
     margin-bottom: 20px;
@@ -1082,12 +1063,10 @@ section img {
     width: 730px;
     overflow-x: hidden;
   }
-
   .content_target {
     width: 730px;
     height: 89vh;
   }
-
   .course {
     height: 120vh;
   }
