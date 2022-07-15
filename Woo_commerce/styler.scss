@@ -1,6 +1,22 @@
 $main-color : #7f54b3;
 $text-color : #494949;
 $button-color: #674399;
+@keyframes anime{
+ 0% {
+    transform: translateX(0);
+}
+50% {
+    transform: translateX(15px);
+}
+100% {
+    transform: translateX(0);
+
+}
+}
+
+
+
+
 *{
     box-sizing: border-box;
 }
@@ -21,12 +37,12 @@ body{
     border-radius: 50%;
 }
 .header{
+    transition: 0.6s ease-in-out;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3.5rem 5.5rem;
-    position: relative;
+    padding: 2rem 5.5rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -37,7 +53,7 @@ body{
     &_left{
         &_logo{
             &_icon{
-                width: 20rem;
+                width: 17rem;
             }
         }
         &_nav{
@@ -83,8 +99,12 @@ body{
     }
 
 }
+.scroll-down .header{
+    transform: translate3d(0, -100%, 0) !important;
+}
+
 .banner{
-    margin: 12rem auto 0 auto;
+    margin: 8rem auto 0 auto;
     width: 1111px;
     display: flex;
     justify-content: space-between;
@@ -126,8 +146,11 @@ body{
                 font-size: 1.5rem;
                 & i{
                     margin-left: 1rem;
+                    animation: anime 3s infinite linear;
                 }
+                
             }
+            
             &_extend{
                 font-size: 1.7rem;
                 text-decoration: none;
@@ -138,6 +161,7 @@ body{
                 font-size: 1.5rem;
             }
         }
+        
     }
     &_right{
         justify-content: space-between;
@@ -208,6 +232,7 @@ body{
         }
         .fa-angle-right{
             margin-left: 1rem;
+            animation: anime 3s infinite linear;
         }
     }
 }

@@ -143,6 +143,9 @@
         margin-bottom: 2rem;
         padding: 0 3rem;
     }
+    .footer_middle{
+        height: 25rem;
+    }
     .footer_middle_ul{
         flex-direction: column;
         align-items: flex-start;
@@ -464,6 +467,9 @@
     body{
         margin: 0 auto;
         overflow-x: hidden;
+    }
+    .header_left{
+        display: inherit;
     }
     .header_left_logo_icon {
         width: 15rem;
