@@ -65,7 +65,7 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        width: 30rem;
+        width: 80%;
     }
     .banner_left_button_start i{
         margin-left: 3rem;
@@ -90,12 +90,6 @@
     .everything_right_heading_margin-40{
         transform: translateY(-40px) !important;
 
-    }
-    .everything_img{
-        width: 100%;
-        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./img/1.png);
-         background-repeat: no-repeat;
-         background-size: cover;
     }
     .everything_right_desc{
         margin: 3rem 2rem 5rem 2rem;
@@ -421,7 +415,7 @@
     .footer_middle_ul{
         flex-wrap: wrap;
     }.footer_bottom{
-        margin: 10rem 0;
+        margin: 5rem 0;
     }
     .footer_bottom_copyright_content{
         width: 70rem;
@@ -431,7 +425,7 @@
     justify-content: center;
     }
     .footer_bottom_content_list{
-        margin: 0 7.4rem;
+        margin: 0 4.5rem;
     }
     .banner_left_button span{
         margin: 2rem 0;
